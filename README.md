@@ -23,7 +23,7 @@ can be effectively minimized or maybe even removed altogether. This can also hel
 reducing the amount of chemicals used to keep the plants healthy and free from disease,
 minimizing costs and increasing profits.
 
-======================================
+=====================================
 Libraries Used
 ======================================
 1. Pandas
@@ -34,7 +34,7 @@ Libraries Used
 6. Numpy
 
 
-=======================================
+=====================================
 Working
 =======================================
 
@@ -59,7 +59,7 @@ This project uses image segmmentation by color and makes a color histogram of 16
 The dataset can be trained for more images with the help of ```Color_feature_extractor.py```
 
 
-===========================================
+======================================
 Thank you.
 ===========================================
 
