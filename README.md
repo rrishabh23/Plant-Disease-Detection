@@ -1,18 +1,18 @@
 # Plant-Disease-Detection
 
 
-============================================
+=====================================
 Plant Disease Detection System
-============================================
+=====================================
 
 Contents:
 - Introduction
 - Libraries Used
 - Working
 
-============================================
+=====================================
 Introduction
-============================================
+=====================================
 
 The project aims at identifying Plant disease through the help of captured images,
 by identifying the leaf's pigmentation and color. Traditionally, plant disease is
@@ -23,9 +23,9 @@ can be effectively minimized or maybe even removed altogether. This can also hel
 reducing the amount of chemicals used to keep the plants healthy and free from disease,
 minimizing costs and increasing profits.
 
-============================================
+======================================
 Libraries Used
-============================================
+======================================
 1. Pandas
 2. XGBoost
 3. Scikit-learn
@@ -34,9 +34,9 @@ Libraries Used
 6. Numpy
 
 
-============================================
+=======================================
 Working
-============================================
+=======================================
 
 The Test Image.py script, applies the segmentation operation on a test image, and seperates the diseased
 part of the leaf and the healthy part of the leaf. First, the image is converted to the HSV model, and 
