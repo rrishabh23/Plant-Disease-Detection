@@ -37,15 +37,15 @@ Working
 =======================================
 
 The Test Image.py script, applies the segmentation operation on a test image, and seperates the diseased
-part of the leaf and the healthy part of the leaf.
-![](https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/seg.jpg)
+part of the leaf and the healthy part of the leaf. <br /> 
+![](https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/seg.jpg) <br /> 
 
 First, the image is converted to the HSV model, and 
 a hue seperating masked is used to segment the diseased part of the leaf from the healthy part (green in
 color). A histogram is then plotted which consists of 16 bins, representing the various differentiable
-colors in the image of the leaf.
-![Histogram for a Healthy Leaf](https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Healthy.png)
-![Histogram for a Healthy Leaf](https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Infected.png)
+colors in the image of the leaf. <br /> 
+![Histogram for a Healthy Leaf](https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Healthy.png) <br /> 
+![Histogram for a Healthy Leaf](https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Infected.png) <br /> 
 Percentage of the colors yellow (representing the diseased part), green
 (representing the healthy part), cyan, blue and magenta are calculated and displayed using the histogram.
 Then the percentage is used as the feature for classification between Diseased and Healthy leaves. The features
