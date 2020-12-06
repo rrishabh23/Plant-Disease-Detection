@@ -49,13 +49,15 @@ color). A histogram is then plotted which consists of 16 bins, representing the 
 colors in the image of the leaf. <br /> 
 <p align="center">
   <img src="https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Healthy.png" />
-</p> 
 Histogram of a Healthy Leaf
+</p> 
+
 <br /> 
 <p align="center">
   <img src="https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Infected.png" />
-</p> 
 Histogram of an Infected Leaf
+</p> 
+
 <br /> 
 Percentage of the colors yellow (representing the diseased part), green
 (representing the healthy part), cyan, blue and magenta are calculated and displayed using the histogram.
