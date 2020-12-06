@@ -48,13 +48,13 @@ a hue seperating masked is used to segment the diseased part of the leaf from th
 color). A histogram is then plotted which consists of 16 bins, representing the various differentiable
 colors in the image of the leaf. <br /> 
 <p align="center">
-  <img src="https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Healthy.png" />
+  <img src="https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Healthy.png" /><br /> 
 Histogram of a Healthy Leaf
 </p> 
 
 <br /> 
 <p align="center">
-  <img src="https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Infected.png" />
+  <img src="https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Infected.png" /><br /> 
 Histogram of an Infected Leaf
 </p> 
 
