@@ -2,7 +2,7 @@
 
 
 
-Plant Disease Detection System
+### Plant Disease Detection System
 =====================================
 
 Contents:
@@ -10,7 +10,7 @@ Contents:
 - Libraries Used
 - Working
 
-Introduction
+### Introduction
 =====================================
 
 The project aims at identifying Plant disease through the help of captured images,
@@ -23,7 +23,7 @@ reducing the amount of chemicals used to keep the plants healthy and free from d
 minimizing costs and increasing profits.
 
 
-Libraries Used
+### Libraries Used
 ======================================
 1. Pandas
 2. XGBoost
@@ -33,19 +33,30 @@ Libraries Used
 6. Numpy
 
 
-Working
+### Working
 =======================================
 
 The Test Image.py script, applies the segmentation operation on a test image, and seperates the diseased
 part of the leaf and the healthy part of the leaf. <br /> 
-![](https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/seg.jpg) <br /> 
+<p align="center">
+  <img src="https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/seg.jpg" />
+</p>
+<br /> 
 
 First, the image is converted to the HSV model, and 
 a hue seperating masked is used to segment the diseased part of the leaf from the healthy part (green in
 color). A histogram is then plotted which consists of 16 bins, representing the various differentiable
 colors in the image of the leaf. <br /> 
-![Histogram for a Healthy Leaf](https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Healthy.png) <br /> 
-![Histogram for a Healthy Leaf](https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Infected.png) <br /> 
+<p align="center">
+  <img src="https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Healthy.png" />
+</p> 
+Histogram of a Healthy Leaf
+<br /> 
+<p align="center">
+  <img src="https://github.com/rrishabh23/Plant-Disease-Detection/blob/master/Docs/Apple%20Infected.png" />
+</p> 
+Histogram of an Infected Leaf
+<br /> 
 Percentage of the colors yellow (representing the diseased part), green
 (representing the healthy part), cyan, blue and magenta are calculated and displayed using the histogram.
 Then the percentage is used as the feature for classification between Diseased and Healthy leaves. The features
