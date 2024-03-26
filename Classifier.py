@@ -25,7 +25,8 @@ classifier = XGBClassifier()
 classifier.fit(x_train, y_train)
 acc = classifier.score(x_test, y_test)
 print("\nClassifier Accuracy : ",acc*100,'%')
-#-------------88% Accuracy
+
+#--------------88% Accuracy
 
 '''
 import tensorflow
